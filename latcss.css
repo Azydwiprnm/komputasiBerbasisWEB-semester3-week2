@@ -1,0 +1,175 @@
+body,html{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar {
+    background: crimson;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    
+}
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.kolegajpg{
+    width: 100%;
+    height: 700px;
+    display: block;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+hr{
+    height: 2px;
+}
+.teks1{
+text-decoration: underline;
+font-size: 42px;
+color: black;
+position: relative;
+margin-top: 20px;
+margin-left: 20px;
+font-family: Georgia;
+}
+.thumbnailberita1{
+    width: 200px;
+    height: 200px;
+    margin-top:29px ;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.berita1{
+    display: flex;
+    justify-content: space-between;
+}
+.teksberita1{
+    margin-left: 20px;
+}
+.thumbnailberita2{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.berita2{
+    display: flex;
+    justify-content: space-between;
+}
+.teksberita2{
+    margin-left: 20px;
+}
+.judulberita1{
+    font-family: Gill Sans;
+}
+.footerCOntainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.socialIcon a{
+    margin: 0 10px;
+    color: black;
+}
+.socialIcon a:hover{
+    color: gray;
+}
+.socialIcon{
+    font-size: 35px;
+    margin-bottom: 30px;
+    
+}
+.alamatupj{
+    font-family: Helvetica;
+}
+.navdiv ul li a:hover{
+color: black;
+}
+.fotoberita1{
+    width: 800px;
+    height: 500px;
+    margin-left: 280px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.judulberita1page{
+    font-size: 60px;
+    margin-left: 230px;
+}
+.isiberita1page{
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: georgia;
+    font-size:large;
+}
+.fotoberita2{
+    width: 800px;
+    height: 500px;
+    margin-left: 280px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.isiberita2page{
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: georgia;
+    font-size:large;
+}
+.judulberita2page{
+    font-size: 60px;
+    margin-left: 230px;
+}
+.upjimg{
+    display: block;
+    position: relative;
+    width: 1358px;
+    margin: 0px;
+    padding: 0px;
+}
+.isitentangupj{
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.tentangUPJ{
+ font-family: sans-serif;
+ margin-left: 80px;
+ 
+}
